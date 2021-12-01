@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/background.jpg)
 	center center fixed no-repeat;
 	background-size:cover;
 	
@@ -68,56 +68,40 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 80%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(44, 44, 44, 0.80); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
 }
 
-h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
 
-h2 {
-	font-family: gimlet-text, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
-}
+
+
 
 p {
-	font-family: gimlet-text, serif;
+	font-family: chapman,serif;
 	font-weight: 400;
-	font-style: normal;	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	font-style: normal;	font-size: 1em;
+    line-height: 1;
+    color: rgb(20, 20, 20);
 }
     
 nav{
-	font-family: gimlet-text, serif;
-	font-weight: 400;
-	font-style: normal;	font-size: 1.2em;
+	font-family: serif;
+	font-weight: 300;
+	font-style: normal;	font-size: 1em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(63, 63, 63);
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -133,14 +117,14 @@ padding: 10px;
 }
 
 a{
-	color: #444;
+	color: rgb(32, 32, 32);
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
 color: black;
-background: pink;
+background: rgb(255, 194, 204);
 }
 
 
