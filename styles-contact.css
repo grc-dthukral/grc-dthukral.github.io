@@ -70,8 +70,8 @@ html, body {
 .center {
     width: 80%;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(44, 44, 44, 0.60); /*this uses opacity of 75% for the background color*/
+    margin: 200px auto;
+ 	background: rgba(44, 44, 44, 0.50); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 
 }
