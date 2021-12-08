@@ -71,9 +71,9 @@ html, body {
     width: 80%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(44, 44, 44, 0.80); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(44, 44, 44, 0.60); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	
+
 }
 
    
@@ -92,6 +92,7 @@ p {
 	font-style: normal;	font-size: 1em;
     line-height: 1;
     color: rgb(20, 20, 20);
+	text-align: center center;
 }
     
 nav{
